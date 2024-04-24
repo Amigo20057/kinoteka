@@ -1,0 +1,58 @@
+.films {
+	display: flex;
+}
+
+aside {
+	width: 15%;
+	/* height: 2500px; */
+	margin-left: 85px;
+}
+
+aside li {
+	margin: 10px;
+}
+
+aside li button {
+	border: none;
+	background-color: transparent;
+	color: #797a92;
+}
+
+.listBtn.active {
+	color: white !important;
+}
+
+.AllFilms {
+	width: 70%;
+}
+
+.AllFilm img {
+	width: 200px;
+	padding: 10px;
+}
+
+.sectionOff {
+	display: none;
+}
+
+.Pages {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Pages button {
+	width: 20px;
+	font-size: 20px;
+	color: #797a92;
+	border: none;
+	background-color: transparent;
+}
+
+.pagesBtn {
+	margin: 5px;
+}
+
+.pagesBtn.activePages {
+	color: white !important;
+}

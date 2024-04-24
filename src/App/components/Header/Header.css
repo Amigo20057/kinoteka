@@ -1,0 +1,92 @@
+.header {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	user-select: none;
+}
+
+.logo h1 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.navList {
+	display: flex;
+}
+
+.navList li {
+	margin-right: 25px;
+}
+
+.navItemBtn {
+	width: 80px;
+	background: rgb(100, 41, 185);
+	background: linear-gradient(
+		90deg,
+		rgba(100, 41, 185, 1) 38%,
+		rgba(38, 79, 197, 1) 79%
+	);
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	height: 27px;
+}
+
+.navList button {
+	border: none;
+	background-color: transparent;
+	color: #797a92;
+}
+
+.navLink.active {
+	color: white !important;
+}
+
+/* .navListAct button {
+	color: #fff;
+} */
+
+.navItemBtn button {
+	margin-left: 3px;
+	border: 2px #000 solid !important;
+	width: 23px;
+	height: 23px;
+	background-color: #fff !important;
+	border: none;
+	border-radius: 100px;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+}
+
+.profile input {
+	color: #fff;
+	width: 70px;
+	background-color: transparent;
+	border: none;
+	border-right: #fff solid 1px;
+	outline: none;
+}
+
+.profile input::placeholder {
+	color: #fff;
+	opacity: 50%;
+}
+
+.avatar {
+	width: 36px;
+	height: 36px;
+	/* background-color: #fff; */
+	border-radius: 100px;
+	margin-left: 15px;
+}

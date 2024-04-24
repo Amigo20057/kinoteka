@@ -1,0 +1,59 @@
+.popularFilm {
+	/* position: relative; */
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+.film {
+	box-shadow: 0px 12px 10px #000;
+	position: absolute;
+	width: 100%;
+	height: 650px;
+	/* background-color: red; */
+}
+
+.filmInfo {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	margin-left: 150px;
+	padding-top: 120px;
+}
+
+.filmInfo h1 {
+	color: #2d2349;
+	font-size: 80px;
+	font-weight: 600;
+	margin-bottom: 100px;
+}
+
+.inFilm {
+	width: 26%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	background-color: #2d2349;
+	margin-bottom: 20px;
+	color: #fff;
+	border: none;
+}
+
+.inFilm span {
+	margin-top: 5px;
+}
+
+.divPartFilm {
+	display: flex;
+	width: 60%;
+}
+
+.partFilmAfter {
+	width: 50%;
+}
+
+.partFilmBefore {
+	width: 50%;
+}

@@ -1,0 +1,115 @@
+.footer {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	display: grid;
+	align-items: center;
+	font-size: 12px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo h1 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.About {
+	width: 17%;
+}
+
+.About h3 {
+	margin-bottom: 12px;
+}
+
+.About li {
+	margin-bottom: 10px;
+}
+
+.About a {
+	color: #878ba9;
+}
+
+.Devices {
+	width: 17%;
+}
+
+.Devices h3 {
+	margin-bottom: 12px;
+}
+
+.Devices li {
+	margin-bottom: 10px;
+}
+
+.Devices a {
+	color: #878ba9;
+}
+
+.Supports {
+	width: 17%;
+}
+
+.Supports h3 {
+	margin-bottom: 12px;
+}
+
+.Supports li {
+	margin-bottom: 10px;
+}
+
+.Supports a {
+	color: #878ba9;
+}
+
+.Media {
+	width: 17%;
+}
+
+.Media h3 {
+	margin-bottom: 12px;
+}
+
+.mediaIcon {
+	display: flex;
+}
+
+.icon {
+	margin: 10px;
+	width: 32px;
+	height: 32px;
+	border-radius: 100px;
+	background-color: #bbbaf8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon img {
+	width: 25px;
+}
+
+.Media button {
+	margin-top: 20px;
+	width: 54%;
+	height: 30%;
+	border-radius: 10px;
+	background: rgb(100, 41, 185);
+	background: linear-gradient(
+		90deg,
+		rgba(100, 41, 185, 1) 60%,
+		rgba(38, 79, 197, 1) 100%
+	);
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+}
