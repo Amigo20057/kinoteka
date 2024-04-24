@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { createPortal } from 'react-dom'
-import { Card } from '../Card/Card'
+import { Card } from '../../UI/Card/Card'
 import './MainFilms.css'
 
 export function MainFilms({ films }) {
-	console.log(films)
+	// console.log(films)
 	const [isOpen, setIsOpen] = useState(false)
 	const [id, setId] = useState(0)
 	const render = () => (

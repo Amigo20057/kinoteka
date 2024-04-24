@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { createPortal } from 'react-dom'
-import { Card } from '../Card/Card'
+import { Card } from '../../UI/Card/Card'
 
 export function Comics({ comics }) {
 	const [isOpen, setIsOpen] = useState(false)

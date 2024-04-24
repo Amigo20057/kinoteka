@@ -1,6 +1,6 @@
 import { ChevronRight } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { Card } from '../Card/Card'
+import { Card } from '../../UI/Card/Card'
 import './PopularFilm.css'
 
 export function PopularFilm({ films }) {

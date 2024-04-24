@@ -47,7 +47,7 @@ export function SectionFilm() {
 		return NewArrFilms
 	}
 
-	console.log(arrFilms())
+	// console.log(arrFilms())
 
 	const render = () => (
 		<>
