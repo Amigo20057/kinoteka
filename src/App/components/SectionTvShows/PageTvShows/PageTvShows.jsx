@@ -12,7 +12,11 @@ export function PagesFilms({ pagesBtnAct, setPages, changePages }) {
 				</button>
 			)
 			if (startPage > 2) {
-				pages.push(<span key='startDots'>...</span>)
+				pages.push(
+					<span style={{ color: '#797a92' }} key='startDots'>
+						...
+					</span>
+				)
 			}
 		}
 
@@ -30,7 +34,11 @@ export function PagesFilms({ pagesBtnAct, setPages, changePages }) {
 
 		if (endPage < totalPages) {
 			if (endPage < totalPages - 1) {
-				pages.push(<span key='endDots'>...</span>)
+				pages.push(
+					<span style={{ color: '#797a92' }} key='endDots'>
+						...
+					</span>
+				)
 			}
 			pages.push(
 				<button

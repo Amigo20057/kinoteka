@@ -35,17 +35,17 @@ export function SectionFilm() {
 			const responseData = await response.json()
 			setFilms(responseData.items)
 		}
-
+		console.log('setPages')
 		getFilms()
 	}, [pages])
 
-	const arrFilms = () => {
-		const NewArrFilms = []
-		films.map(movie => {
-			NewArrFilms.push(movie)
-		})
-		return NewArrFilms
-	}
+	// const arrFilms = () => {
+	// 	const NewArrFilms = []
+	// 	films.map(movie => {
+	// 		NewArrFilms.push(movie)
+	// 	})
+	// 	return NewArrFilms
+	// }
 
 	// console.log(arrFilms())
 

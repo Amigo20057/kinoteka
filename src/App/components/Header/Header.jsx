@@ -5,7 +5,7 @@ import './Header.css'
 export function Header({ activeElement, change }) {
 	return (
 		<div className='header'>
-			<div onClick={()=>change(1)} className='logo'>
+			<div onClick={() => change(1)} className='logo'>
 				<img src='tickets.png' alt='tickets' width={50} height={55} />
 				<h1>Kinoteka</h1>
 			</div>
