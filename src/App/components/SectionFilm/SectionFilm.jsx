@@ -1,7 +1,6 @@
 // SectionFilm.js
 import { useEffect, useState } from 'react'
 import { Filters } from '../Filters/Filters'
-import { FilterFilms } from './FIlterFilms/FilterFilms'
 import { GenresFilms } from './GenresFilms/GenresFilms'
 import { PagesFilms } from './PagesFIlms/PagesFilms'
 import './SectionFilm.css'
@@ -92,7 +91,7 @@ export function SectionFilm() {
 			</aside>
 			<main className='AllFilms'>
 				<Filters />
-				<FilterFilms render={render} filterYear={filterYear} />
+				{/* <FilterFilms render={render} filterYear={filterYear} /> */}
 				<GenresFilms
 					activateBtn={activateBtn}
 					filterFilms={filterFilms}
